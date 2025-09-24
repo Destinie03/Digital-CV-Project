@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preconnect and Google Fonts (load before styles.css) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Destinie Lessig Digital CV Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <!--Text Links-->
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+                <!--Icons Links-->
+                <li><a href="https://github.com/Destinie03">
+                    <i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/destinielessig/">
+                    <i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/destinie-lessig-882032249/">
+                    <i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact Me</h1>
+            <form method="post" action="https://formspree.io/f/mayvlrwy" name="Contact Form" id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" minlength="2" maxlength="20"  placeholder="Enter name"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="phone" id="phone" name="phone" minlength="7" maxlength="15" placeholder="Enter phone number"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" minlength="5" maxlength="25" placeholder="Enter email"><br><br>
+
+            <select name="reason" id="reason" required>
+                <option value="" disabled selected>Reason for Contact</option>
+                <option value="job">Job Opportunity</option>
+                <option value="networking">Networking</option>
+                <option value="question">Question</option>
+                <option value="other">Other</option>
+            </select>
+
+        <br><br>
+
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter other reason if applicable." minlength="10" maxlength="100"></textarea>
+        
+        <!-- Breaks will be removed once I've covered css -->
+
+        <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <footer>
+            <p>&copy; 2025 by Destinie Lessig</p>
+        </footer>
+        </section>
+    </main>
+</body>
+</html>
