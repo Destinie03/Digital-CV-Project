@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('./fonts/BricolageGrotesque-Regular.woff2') format('woff2'),
+         url('./fonts/BricolageGrotesque-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('./fonts/BricolageGrotesque-Bold.woff2') format('woff2'),
+         url('./fonts/BricolageGrotesque-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    color: hsl(210,5%,25%);
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: hsl(209, 95%, 50%);
+}
+.nav-links a:active {
+    color: hsl(209, 95%, 30%);
+}
+
+.nav-links a:visited {
+    color: hsl(210, 94%, 14%);
+}
+.nav-links a:focus {
+    outline: 2px solid hsl(209, 95%, 50%);
+    outline-offset: 2px;
+}
+
+h1 {
+    color: hsl(209, 95%, 30%);
+    font-size: 35px;
+}
+h2, h3 {
+    color: hsl(210, 94%, 14%);
+    font-size: 24px
+}
+
+input, textarea, select:hover {
+    border-color: hsl(209, 95%, 50%);
+    border-radius: 4px;
+}
