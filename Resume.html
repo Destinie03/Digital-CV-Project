@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Preconnect and Google Fonts (load before styles.css) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+    <title>Destinie Lessig Resume</title>
+  </head>
+  <body>
+    <div class="page-content">
+
+        <!--Side Bar -->
+        <aside class="sidebar">
+            <div class="profile-wrap">
+            <img
+              class="profile-picture"
+              src="images/profile.jpeg.jpg"
+              alt="Destinie Lessig"
+              width="450"
+              height="450"
+            />
+          </div>
+
+          <div class="contact-info">
+            <h2>Contact</h2>
+            <ul>
+                <li><i class="fas fa-envelope"></i>destinie100@gmail.com</a></li>
+                <li><i class="fas fa-phone"></i> (918) 264-6887</li>
+                <li><i class="fas fa-map-marker-alt"></i> Tulsa, OK</li>
+            </ul>
+          </div>
+
+          <h2>Expertise</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git & GitHub</li>
+            <li>VScode</li>
+            <li>Command Line</li>
+            <li>Photography</li>
+            <li>Photo Editing</li>
+          </ul>
+        </aside>
+
+      <main>
+        <div class="main-wrapper">
+        <section>
+          <h1>Destinie Lessig</h1>
+        </section>
+
+        <section>
+          <h2>Mission</h2>
+          <ol>
+            <li>
+              Develop and refine my software development abilities while
+              pursuing certification with Springboard.
+            </li>
+            <li>
+              Seek employment opportunities with support from career coaches.
+            </li>
+            <li>
+              Apply and further develop my skills while pursuing new job
+              opportunities.
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <table class="Education-table">
+            <caption>
+              <h3>Education</h3>
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Institution</th>
+                <th scope="col">Course</th>
+                <th scope="col">Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Springboard</th>
+                <td>Enterprise Software Development</td>
+                <td>2025 - present</td>
+              </tr>
+              <tr>
+                <th>Tulsa Technology Center</th>
+                <td>Photography</td>
+                <td>2020 - 2022</td>
+              </tr>
+              <tr>
+                <th>Union High School</th>
+                <td>Diploma</td>
+                <td>2019 - 2022</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Experience</h2>
+          <h3>Walmart</h3>
+          <p>
+            Online Grocery Shopper (<time datetime="2020-08-29"
+              >2020 - present</time
+            >)
+          </p>
+          <ul>
+            <li>
+              Efficiently pick and pack grocery orders for customers, ensuring
+              accuracy and quality.
+            </li>
+            <li>
+              Provide excellent customer service by addressing customer
+              inquiries and concerns.
+            </li>
+            <li>
+              Maintain a clean and organized work environment to optimize
+              workflow.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Projects</h2>
+          <article>
+            <h3>Event Flyer</h3>
+            <p>
+              Created a practice promotional flyer exploring padding and
+              separation.
+            </p>
+            <img class="project-img"
+              src="images/Event-flyer.PNG"
+              alt="Promotional web design displaying and event flyer screenshot"
+              width="350"
+              height="200"
+            />
+          </article>
+
+          <article>
+            <h3>Business Card</h3>
+            <p>
+              Designed a practice business card that explores color, spacing,
+              and layout.
+            </p>
+            <img class="project-img"
+              src="images/Business-card.PNG"
+              alt="promotional web design displaying a business card screenshot"
+              width="350"
+              height="200"
+            />
+          </article>
+        </section>
+
+        <section class="contact">
+          <h2>Contact Me</h2>
+          <form
+            method="post"
+            action="https://formspree.io/f/mayvlrwy"
+            name="Contact Form"
+            id="contact-form"
+          >
+            <label for="name">Name:</label>
+            <input class="contact-boxes"
+              type="text"
+              id="name"
+              name="name"
+              minlength="2"
+              maxlength="20"
+              placeholder="Enter name"
+            />
+            <label for="phone">Phone:</label>
+            <input class="contact-boxes"
+              type="tel"
+              id="tel"
+              name="tel"
+              minlength="7"
+              maxlength="15"
+              placeholder="Enter phone number"
+            />
+            <label for="email">Email:</label>
+            <input class="contact-boxes"
+              type="email"
+              id="email"
+              name="email"
+              minlength="5"
+              maxlength="25"
+              placeholder="Enter email"
+            />
+
+            <select class="contact-boxes" name="reason" id="reason" required>
+              <option value="" disabled selected>Reason for Contact</option>
+              <option value="job">Job Opportunity</option>
+              <option value="networking">Networking</option>
+              <option value="question">Question</option>
+              <option value="other">Other</option>
+            </select>
+
+            <textarea class="contact-boxes"
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              placeholder="Enter other reason if applicable."
+              minlength="10"
+              maxlength="100"
+            ></textarea>
+
+            <button type="submit">Submit</button>
+            
+          </form>
+        </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
